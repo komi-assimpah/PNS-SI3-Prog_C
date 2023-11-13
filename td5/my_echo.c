@@ -5,7 +5,7 @@ void *mirror(int length, char *s);
 
 int main(int argc, char *argv[]){
     
-    //code à améliorer pour afficher les parametre renversé au cas où -r n'est pas le 1er param :  ./my_echo abc def -r ghi
+    //code à améliorer pour afficher les parametre renversé au cas où -r n'est pas le 1er param : ./my_echo abc def -r ghi
     if(strcmp(argv[1], "-r")==0){
         for(int i=2; i<argc; i++){
             mirror(strlen(argv[i]) ,argv[i]);
