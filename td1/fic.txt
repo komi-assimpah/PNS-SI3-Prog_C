@@ -1,0 +1,3 @@
+Un fichier qui contient
+deux lignes
+ou trois
